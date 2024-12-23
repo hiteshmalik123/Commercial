@@ -1,0 +1,38 @@
+{
+  "name": "smallprojects",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hitesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.8.4",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-paginate-v2": "^1.8.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "sharp": "^0.33.5",
+    "stripe": "^17.4.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
